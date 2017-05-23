@@ -565,6 +565,13 @@ function! <SID>RenderSyntax()
       hi def link MBEVisibleActiveChanged  Error
     endif
 
+    hi MBENormal               guifg=#268bd2 guibg=fg
+    hi MBEChanged              guifg=#F1266F guibg=fg
+    hi MBEVisibleNormal        guifg=#22DDDD guibg=fg
+    hi MBEVisibleChanged       guifg=#F1266F guibg=fg
+    hi MBEVisibleActiveNormal  guifg=#22DDDD guibg=fg
+    hi MBEVisibleActiveChanged guifg=#F1266F guibg=fg
+
     let b:current_syntax = "minibufexpl"
   endif
 endfunction
