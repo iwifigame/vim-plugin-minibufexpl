@@ -570,7 +570,7 @@ function! <SID>RenderSyntax()
     hi MBEVisibleNormal        guifg=#22DDDD guibg=fg
     hi MBEVisibleChanged       guifg=#F1266F guibg=fg
     hi MBEVisibleActiveNormal  guifg=#22DDDD guibg=fg
-    hi MBEVisibleActiveChanged guifg=#F1266F guibg=fg
+    hi MBEVisibleActiveChanged guifg=#22DDDD guibg=fg
 
     let b:current_syntax = "minibufexpl"
   endif
