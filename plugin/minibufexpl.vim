@@ -566,9 +566,9 @@ function! <SID>RenderSyntax()
     endif
 
     hi MBENormal               guifg=#268bd2 guibg=fg
-    hi MBEChanged              guifg=#F1266F guibg=fg
+    hi MBEChanged              guifg=#268bd2 guibg=fg
     hi MBEVisibleNormal        guifg=#22DDDD guibg=fg
-    hi MBEVisibleChanged       guifg=#F1266F guibg=fg
+    hi MBEVisibleChanged       guifg=#268bd2 guibg=fg
     hi MBEVisibleActiveNormal  guifg=#22DDDD guibg=fg
     hi MBEVisibleActiveChanged guifg=#22DDDD guibg=fg
 
